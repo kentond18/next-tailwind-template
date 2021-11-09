@@ -1,3 +1,5 @@
+const colors = require("tailwindcss/colors");
+
 module.exports = {
 	mode: "jit",
 	purge: [
@@ -11,6 +13,7 @@ module.exports = {
 			current: "currentColor",
 			black: "#000",
 			white: "#fff",
+			gray: colors.coolGray,
 			// Brand Colors - Ammend as needed per project
 			brand: {
 				primary: "#00bcd4",
