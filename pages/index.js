@@ -4,11 +4,11 @@ const Home = () => {
 	return (
 		<div className="flex flex-col items-center justify-center min-h-screen py-2">
 			{/* Header */}
-			<Header title="Login" />
+			<Header title="Next.js Tailwind Template" />
 
-			<main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
+			<main>
 				<h1 className="text-6xl font-bold">
-					Login to Client Managment 1.0
+					Hello, this is a Next Tailwind Template! :)
 				</h1>
 			</main>
 		</div>
